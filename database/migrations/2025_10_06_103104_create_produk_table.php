@@ -17,7 +17,7 @@ return new class extends Migration
             $table->string('kategori', 50);
             $table->decimal('harga_satuan', 12, 2);
             $table->integer('stok')->default(0);
-            $tables->string('satuan', 20);
+            $table->string('satuan', 20);
             $table->timestamps();
         });
     }
